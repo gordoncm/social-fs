@@ -124,7 +124,7 @@ public class SocialFSTest {
 		
 		// checking that we found the right profile
 		Assert.assertEquals(socialFS1.getCredentials().getProfile(), profile);
-		// checking private key was NOT transfered
+		// checking private key was NOT transferred
 		Assert.assertNull(profile.getPrvSigKey());
 
 		// getting the new file
